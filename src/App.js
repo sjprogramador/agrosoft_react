@@ -1,7 +1,15 @@
-import AgroSoft from "./menu-principal";
+import Login from "./login/login";
+import MenuPrincipal from "./menu-principal";
 
 function App() {
-  return <AgroSoft />;
+
+  const logueado = false;
+
+  return (
+    <>
+      {logueado ? <MenuPrincipal /> : <Login />}
+    </>
+  );
 }
 
 export default App;

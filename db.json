@@ -1,0 +1,17 @@
+{
+  "usuarios": [
+    {
+      "usuario": "sebas",
+      "correo": "sjcreador12@gmail.com",
+      "contrasena": "1234",
+      "id": "PVRRCqveYyk"
+    },
+    {
+      "usuario": "pedro",
+      "correo": "pedro-12@gmail.com",
+      "contrasena": "12345",
+      "id": "bBnSoNNgWR4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
